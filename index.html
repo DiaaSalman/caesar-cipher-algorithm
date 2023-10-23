@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/hacker.png" type="image/x-icon" />
+    <title>Caesar Cipher Algorithm</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="form">
+        <div class="input select-input">
+          <label for="type">Select Convert Type</label>
+          <select name="type" id="type">
+            <option value="cipher">Convert to Cipher Text</option>
+            <option value="plain">Convert to Plain Text</option>
+          </select>
+        </div>
+        <div class="input text-input">
+          <label class="type-label" for="text"></label>
+          <input class="text-input-field" type="text" placeholder="" required />
+        </div>
+        <div class="input key-input">
+          <label class="key-label" for="text"></label>
+          <input
+            class="key-input-field"
+            type="number"
+            placeholder=""
+            required
+          />
+        </div>
+        <button class="convert-btn"></button>
+        <div class="output">
+          <p class="text-type"></p>
+          <p class="text-output"></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
